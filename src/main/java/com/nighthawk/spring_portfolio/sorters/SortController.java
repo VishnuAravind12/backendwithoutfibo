@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.HashMap;
 import java.util.Map;
 
-@CrossOrigin
+@CrossOrigin(origins = "http://127.0.0.1:4200")
 @RestController
 @RequestMapping("/api/sort")
 public class SortController {
